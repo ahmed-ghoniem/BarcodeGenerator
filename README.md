@@ -1,5 +1,5 @@
 # BarcodeGenerator
 
-##Implementing Barcode Generator Using:
-	-IronBarCode
-	-FreeSpire
+## Implementing Barcode Generator Using:
+	- IronBarCode
+	- FreeSpire
