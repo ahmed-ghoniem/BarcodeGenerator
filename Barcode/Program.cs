@@ -13,11 +13,9 @@ namespace Barcode
 			//get Current Domain Path
 			//change in case of web and use Server.MapPath
 			string directoryBase = AppDomain.CurrentDomain.BaseDirectory;
-			//generate random file name
-			string newFileName = Guid.NewGuid() + ".Png";
 
 			//barcode text data 
-			string barcodeData = "BarCode-0000-001";
+			string barcodeData = $"BarCode-{Guid.NewGuid()}";
 
 			string outputPath = Path.Combine(directoryBase, barcodeData);
 			PreparePath(outputPath);

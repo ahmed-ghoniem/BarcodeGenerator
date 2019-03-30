@@ -1,6 +1,5 @@
 ﻿using Spire.Barcode;
 using System.Drawing;
-using System.Drawing.Imaging;
 
 namespace Barcode
 {
